@@ -91,32 +91,19 @@ def register_handlers(app: Client):
     @app.on_message(filters.command("zlo"))
     async def zlo_handler(client: Client, message: Message):
         zlo_message = (
-            "First of all thank you for deciding to use Dave within your group or pms. "
-            "Please can you do me a huge favour and use him responsibly as I have had to "
-            "rescript and rebuild his environment as his API and script was banned along "
-            "with my account due to users in the past using Dave irresponsibly. If you're "
-            "seen using Dave irresponsibly, you "
-            "will be permanently blacklisted and reported. The topics that will cause this to "
-            "happen are as follows.\n\n"
-            "1. Asking how to do unethical hacking i.e fraud, ddos botnets, payload injections, "
-            "ransomware, malware, data extraction and device exploitation\n\n"
-            "2. Asking for CSAM content and where to find it.\n\n"
-            "3. Using to doxx or asking how to doxx.\n\n"
-            "4. Asking it for unsavoury pictures of you/others\n\n"
-            "These are the topics that led to the ban in the past destroying it for everyone. "
-            "I did ask for users to stop being irresponsible with Dave but no one would listen, "
-            "so sorry to all of Dave's fans but he is back now, with new security features like "
-            "my reporting system. If you see Dave being used irresponsibly, reply to the user's "
-            "message with /skid as this will send a message to me ASAP so i am able to blacklist the user.\n\n"
-            "I will continue to do constant updates like before and I need to restart on his AI "
-            "image generation as this was a project lost in the ban.\n\n"
-            "I do not ask for anything from anyone to do with any of my projects; this is the first "
-            "time I am asking for anything in return, so please do me a favour and abide. My projects "
-            "are free for life for everyone and I would like to keep it that way. I love all of this; "
-            "it is my passion and I like to share my toys, but if people continue to disrespect my work, "
-            "I will close my toybox indefinitely.\n\n"
-            "Anyways, thank you to all my supporters and followers; I love each and every one of you. "
-            "P.S. I got some big projects releasing soon guaranteed to blow your minds, so stay tuned.\n\n"
+            "We have our own TOS  keeping in line with telegrams and they are as follows./n/n"
+
+"1. Asking it anything to do with unethical hacking and osint,/n/n"
+
+"2. Asking for any type of type of illegal content and where to find it,/n/n"
+
+"3. Asking it for lorebooks and doxxes,/n/n"
+
+"4. Asking it for unsavoury pictures of others,/n/n"
+
+"Faliure to follow the TOS will result in you being permanently blacklisted from using this bot, Use /skid to send a report  if you see anyone breaking the TOS, FYI these will be reviewed contanstly to abide by Telegram TOS also the bot at the moment is going through constant updates so if it is offline this will be the reason as to why/n/n"
+
+"Thank you and have fun"
             "Your local neighbourhood droid\n\n"
             "-ZłO"
         )
